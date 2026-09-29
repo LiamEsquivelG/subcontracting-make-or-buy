@@ -1,13 +1,13 @@
-#  subcontracting-make-or-buy
+# subcontracting-make-or-buy
 
 **Modelo "make or buy" para decidir qué perfiles subcontratados conviene internalizar.** Combina SQL, Python y análisis de sensibilidad.
 
-> ⚠️ **Nota:** inspirado en mi práctica profesional en una consultora ambiental. **Todos los datos son simulados.** No se usa información de la empresa.
+> **Nota:** inspirado en mi práctica profesional en una consultora ambiental. **Todos los datos son simulados.** No se usa información de la empresa.
 
 ## Contexto real (práctica profesional)
-- Elaboré una propuesta de optimización de subcontrataciones que permitió internalizar 4 perfiles antes subcontratados (en torno a $4.200.000 c/u).
-- Resultado: una reducción de aprox. $1.200.000 mensuales por persona.
-- Consolidé información histórica y actual de subcontrataciones para mejorar la trazabilidad de los registros.
+- Elaboré una propuesta de optimización de subcontrataciones que permitió **internalizar 4 perfiles** antes subcontratados (en torno a $4.200.000 c/u).
+- Resultado: una reducción de **aprox. $1.200.000 mensuales por persona**.
+- Consolidé información histórica y actual de subcontrataciones para **mejorar la trazabilidad** de los registros.
 
 ## Qué hace el modelo
 1. **Genera un historial** de órdenes de subcontratación por especialista (2024–2025) en una base SQLite.
@@ -33,7 +33,7 @@ python make_or_buy.py --seed 3
 
 **4 perfiles a internalizar · ahorro promedio ≈ $1,2 M mensuales por persona.**
 
- *Aprendizaje clave:* un ahorro mensual alto no basta. Si la demanda es esporádica, el costo fijo de contratar supera al subcontrato. Por eso el modelo mira la **continuidad**.
+*Aprendizaje clave:* un ahorro mensual alto no basta. Si la demanda es esporádica, el costo fijo de contratar supera al subcontrato. Por eso el modelo mira la **continuidad**.
 
 ## Conceptos aplicados
 Análisis make-or-buy · costeo · SQL (JOIN, GROUP BY, agregaciones) · análisis de sensibilidad · trazabilidad de registros · Python (pandas)
