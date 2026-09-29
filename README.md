@@ -5,9 +5,9 @@
 > ⚠️ **Nota:** inspirado en mi práctica profesional en una consultora ambiental. **Todos los datos son simulados.** No se usa información de la empresa.
 
 ## Contexto real (práctica profesional)
-- Elaboré una propuesta de optimización de subcontrataciones que permitió **internalizar 4 perfiles** antes subcontratados (en torno a $4.200.000 c/u).
-- Resultado: una reducción de **aprox. $1.200.000 mensuales por persona**.
-- Consolidé información histórica y actual de subcontrataciones para **mejorar la trazabilidad** de los registros.
+- Elaboré una propuesta de optimización de subcontrataciones que permitió internalizar 4 perfiles antes subcontratados (en torno a $4.200.000 c/u).
+- Resultado: una reducción de aprox. $1.200.000 mensuales por persona.
+- Consolidé información histórica y actual de subcontrataciones para mejorar la trazabilidad de los registros.
 
 ## Qué hace el modelo
 1. **Genera un historial** de órdenes de subcontratación por especialista (2024–2025) en una base SQLite.
